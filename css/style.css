@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    height: 100vh;
+    background-color: #FFEAEC;
+}
+
+#container {
+    padding-top: 5rem;
+    height: 54vh;
+    text-align: center;
+}
+
+.button {
+    margin: 2rem;
+    font-size: 1.5rem;
+    padding: .75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Dongle', sans-serif;
+    background-color: #FFADB6;
+    border-radius: 999em;
+    transition: all 0.3s ease 0s;
+    transition: 0.3s;
+}
+
+.button:hover {
+    box-shadow: rgb(229, 96, 73, 0.30) 0px 3px 3px 3px;
+    transform: translateY(-0.6rem);
+    cursor: grab;
+}
+
+
+header {
+    height: 20vh;
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+footer {
+    height: 3vh;
+    text-align: center;
+    background-color: #B6CED6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+#team {
+    color: blueviolet;
+}

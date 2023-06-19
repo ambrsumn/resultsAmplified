@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    height: 100vh;
+    background-color: #DDDBCB;
+}
+
+#container {
+    padding-top: 5rem;
+    height: 54vh;
+    text-align: center;
+}
+
+.button {
+    margin: 2rem;
+    font-size: 1.5rem;
+    padding: .75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: #85BAA1;
+    border-radius: 999em;
+    transition: all 0.3s ease 0s;
+    transition: 0.3s;
+}
+
+header {
+    height: 20vh;
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: chocolate;
+}
+
+footer {
+    height: 3vh;
+    text-align: center;
+    background-color: #E0D8DE;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 700; */
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+#team {
+    color: blueviolet;
+}
+
+.inp {
+    padding: 1rem;
+    margin: 1rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+}
+
+
+
+.button:hover,
+.button:focus {
+    animation: pulse 1s;
+    box-shadow: rgb(229, 96, 73, 0.30) 0 0 0 1em;
+    cursor: grab;
+}
+
+/* .button:hover {
+    box-shadow:  0px 3px 3px 3px;
+    transform: translateY(-0.6rem);
+    cursor: grab;
+} */

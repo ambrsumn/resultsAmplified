@@ -1,0 +1,10 @@
+footer {
+  height: 5vh;
+  text-align: center;
+  background-color: #b6ced6;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: #9dc4b5;
+}
